@@ -50,8 +50,9 @@ const Home = () => {
           <Navbar />
           <PostForm />
           <div className="flex flex-col items-center justify-center gap-8 mt-8">
-            {posts?.map((x) => (
+            {posts?.map((x, index) => (
               <PostCard
+                key={index}
                 handleLikePost={(e) => handleLikePost(e, x?.post_id)}
                 post={x}
               />

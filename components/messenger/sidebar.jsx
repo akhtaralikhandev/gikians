@@ -36,8 +36,9 @@ const Sidebar = () => {
             </li>{" "}
           </Link>
           {allGroups?.length > 0
-            ? allGroups?.map((x) => (
+            ? allGroups?.map((x, index) => (
                 <Link
+                  key={index}
                   href={`/messages/groups/${x?.user_chat_group_id}?chat_group_id=${x?.chat_group_id}`}
                 >
                   <li className="text-xl hover:bg-blue-500 p-2 hover:text-white rounded-lg cursor-pointer">

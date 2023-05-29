@@ -1,6 +1,26 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/api/friends/single": "pages/api/friends/single.js",
+  "/api/messenger/message/message": "pages/api/messenger/message/message.js",
+  "/api/messenger/group/all": "pages/api/messenger/group/all.js",
+  "/api/messenger/group/create": "pages/api/messenger/group/create.js",
+  "/api/post/comment": "pages/api/post/comment.js",
+  "/api/post/like": "pages/api/post/like.js",
+  "/api/post/post": "pages/api/post/post.js",
+  "/api/profile/profile": "pages/api/profile/profile.js",
+  "/api/upload/route": "pages/api/upload/route.js",
+  "/api/user/register": "pages/api/user/register.js",
+  "/": "pages/index.html",
+  "/friends/profile/[id]": "pages/friends/profile/[id].html",
+  "/messages/groups/[id]": "pages/messages/groups/[id].html",
+  "/messages/groups/create": "pages/messages/groups/create.html",
+  "/messages/chat/[id]": "pages/messages/chat/[id].html",
+  "/messages/home/home": "pages/messages/home/home.html",
+  "/register/register": "pages/register/register.html",
+  "/profile/profile": "pages/profile/profile.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 import io from "socket.io-client";
 const socket = io("http://localhost:3002");
 import { useRouter } from "next/router";
-import "../../app/globals.css";
 const ChatBox = () => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
